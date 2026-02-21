@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+/* Headline */
+.headline {
+    font-size: 48px;
+    letter-spacing: 10px;
+    opacity: 0;
+}
+
+/* Stats */
+.stats {
+    margin-top: 30px;
+}
+
+.stat {
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.stat h2 {
+    font-size: 32px;
+    color: #00f0ff;
+}
+
+.stat p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 500px;
+    transform: translateY(0);
+}
+
+/* Extra Section for Scroll */
+.extra {
+    height: 150vh;
+    background: #222;
+}
